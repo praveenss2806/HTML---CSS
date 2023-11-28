@@ -11,6 +11,8 @@
   border-bottom-width:1px;
   border-bottom-color: rgb(204, 204, 204);
   border-bottom-style: solid;
+
+  z-index: 100;
 }
 
 .left-section {
@@ -95,4 +97,23 @@
   margin-right: 15px;
   height: 32px;
   border-radius: 16px;
+}
+
+.notif-div {
+  position: relative;
+}
+
+.notif-count {
+  position: absolute;
+  top:-2px;
+  right:-5px;
+  background-color: rgb(186, 0, 0);
+  color: white;
+  font-family: Roboto;
+  font-size: 11px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
 }
