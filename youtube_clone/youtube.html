@@ -14,7 +14,7 @@
   </head>
 
   <body>
-    <div class="header">
+    <header class="header">
 
       <div class="left-section">
         <img class="ham-icon" src="icons/hamburger-menu.svg">
@@ -25,25 +25,39 @@
         <input class="search-bar" type="text" placeholder="Search">
         <button class="search-button">
           <img class="search-img" src="icons/search.svg">
+          <div class="tooltip">
+            Search
+          </div>
         </button>
         <button class="voice-button">
           <img class="voice-img" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with voice</div>
         </button>
       </div>
 
       <div class="right-section">
-        <img class="upload-img" src="icons/upload.svg">
-        <img class="apps-img" src="icons/youtube-apps.svg">
+        <div class="upload-div">
+          <img class="upload-img" src="icons/upload.svg">
+          <div class="tooltip">Upload</div>
+        </div>
+        
+        <div class="apps-div">
+          <img class="apps-img" src="icons/youtube-apps.svg">
+          <div class="tooltip">Apps</div>
+        </div>
+        
+
         <div class="notif-div">
           <img class="notif-img" src="icons/notifications.svg">
           <div class="notif-count">3</div>
+          <div class="tooltip">Notifications</div>
         </div>
         <img class="my-img" src="channel-picture/my-channel.jpeg">
       </div>
       
-    </div>
+    </header>
 
-    <div class="sidebar">
+    <nav class="sidebar">
       <div class="sidebar-div">
         <img src="icons/home.svg" alt="">
         <div>Home</div>
@@ -68,126 +82,254 @@
         <img src="icons/library.svg" alt="">
         <div>Library</div>
       </div>
-    </div>
+    </nav>
 
-    <div class="video-preview-container">
+    <main>
+      <section class="video-preview-container">
 
-      <div class="video-preview">
-        <div class="thumbnail-div">
-          <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
-          <div class="video-timer">14:20</div>
+        <div class="video-preview">
+          <div class="thumbnail-div">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            <div class="video-timer">14:20</div>
+          </div>
+    
+          <div class="video-info-div">
+            <div class="channel-pic">
+              <img class="channel-img" src="channel-picture/channel-1.jpeg">
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="video-state">3.4M views &#183; 6 months ago</p>
+            </div>
+          </div>
+    
+        </div>
+       
+        <div class="video-preview">
+          <div class="thumbnail-div">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            <div class="video-timer">14:20</div>
+          </div>
+    
+          <div class="video-info-div">
+            <div class="channel-pic">
+              <img class="channel-img" src="channel-picture/channel-1.jpeg">
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="video-state">3.4M views &#183; 6 months ago</p>
+            </div>
+          </div>
+    
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-div">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            <div class="video-timer">14:20</div>
+          </div>
+    
+          <div class="video-info-div">
+            <div class="channel-pic">
+              <img class="channel-img" src="channel-picture/channel-1.jpeg">
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="video-state">3.4M views &#183; 6 months ago</p>
+            </div>
+          </div>
+    
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-div">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            <div class="video-timer">14:20</div>
+          </div>
+    
+          <div class="video-info-div">
+            <div class="channel-pic">
+              <img class="channel-img" src="channel-picture/channel-1.jpeg">
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="video-state">3.4M views &#183; 6 months ago</p>
+            </div>
+          </div>
+    
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-div">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            <div class="video-timer">14:20</div>
+          </div>
+    
+          <div class="video-info-div">
+            <div class="channel-pic">
+              <img class="channel-img" src="channel-picture/channel-1.jpeg">
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="video-state">3.4M views &#183; 6 months ago</p>
+            </div>
+          </div>
+    
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-div">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            <div class="video-timer">14:20</div>
+          </div>
+    
+          <div class="video-info-div">
+            <div class="channel-pic">
+              <img class="channel-img" src="channel-picture/channel-1.jpeg">
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="video-state">3.4M views &#183; 6 months ago</p>
+            </div>
+          </div>
+    
         </div>
   
-        <div class="video-info-div">
-          <div class="channel-pic">
-            <img class="channel-img" src="channel-picture/channel-1.jpeg">
+        <div class="video-preview">
+          <div class="thumbnail-div">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            <div class="video-timer">14:20</div>
           </div>
-  
-          <div class="video-info">
-            <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
-            <p class="channel-name">Marques Brownlee</p>
-            <p class="video-state">3.4M views &#183; 6 months ago</p>
+    
+          <div class="video-info-div">
+            <div class="channel-pic">
+              <img class="channel-img" src="channel-picture/channel-1.jpeg">
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="video-state">3.4M views &#183; 6 months ago</p>
+            </div>
           </div>
+    
         </div>
   
-      </div>
-     
-      <div class="video-preview">
-        <div class="thumbnail-div">
-          <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+        <div class="video-preview">
+          <div class="thumbnail-div">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            <div class="video-timer">14:20</div>
+          </div>
+    
+          <div class="video-info-div">
+            <div class="channel-pic">
+              <img class="channel-img" src="channel-picture/channel-1.jpeg">
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="video-state">3.4M views &#183; 6 months ago</p>
+            </div>
+          </div>
+    
         </div>
   
-        <div class="video-info-div">
-          <div class="channel-pic">
-            <img class="channel-img" src="channel-picture/channel-2.jpeg">
+        <div class="video-preview">
+          <div class="thumbnail-div">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            <div class="video-timer">14:20</div>
           </div>
-  
-          <div class="video-info">
-            <p class="video-title">Try Not To Laugh Challenge #9</p>
-            <p class="channel-name">Markiplier</p>
-            <p class="video-state">19M views &#183; 4 years ago</p>
+    
+          <div class="video-info-div">
+            <div class="channel-pic">
+              <img class="channel-img" src="channel-picture/channel-1.jpeg">
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="video-state">3.4M views &#183; 6 months ago</p>
+            </div>
           </div>
+    
         </div>
   
-      </div>
-  
-      <div class="video-preview">
-        <div class="thumbnail-div">
-          <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+        <div class="video-preview">
+          <div class="thumbnail-div">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            <div class="video-timer">14:20</div>
+          </div>
+    
+          <div class="video-info-div">
+            <div class="channel-pic">
+              <img class="channel-img" src="channel-picture/channel-1.jpeg">
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="video-state">3.4M views &#183; 6 months ago</p>
+            </div>
+          </div>
+    
         </div>
   
-        <div class="video-info-div">
-          <div class="channel-pic">
-            <img class="channel-img" src="channel-picture/channel-2.jpeg">
+        <div class="video-preview">
+          <div class="thumbnail-div">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            <div class="video-timer">14:20</div>
           </div>
-  
-          <div class="video-info">
-            <p class="video-title">Try Not To Laugh Challenge #9</p>
-            <p class="channel-name">Markiplier</p>
-            <p class="video-state">19M views &#183; 4 years ago</p>
+    
+          <div class="video-info-div">
+            <div class="channel-pic">
+              <img class="channel-img" src="channel-picture/channel-1.jpeg">
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="video-state">3.4M views &#183; 6 months ago</p>
+            </div>
           </div>
+    
         </div>
   
-      </div>
-  
-      <div class="video-preview">
-        <div class="thumbnail-div">
-          <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+        <div class="video-preview">
+          <div class="thumbnail-div">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            <div class="video-timer">14:20</div>
+          </div>
+    
+          <div class="video-info-div">
+            <div class="channel-pic">
+              <img class="channel-img" src="channel-picture/channel-1.jpeg">
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+              <p class="channel-name">Marques Brownlee</p>
+              <p class="video-state">3.4M views &#183; 6 months ago</p>
+            </div>
+          </div>
+    
         </div>
   
-        <div class="video-info-div">
-          <div class="channel-pic">
-            <img class="channel-img" src="channel-picture/channel-2.jpeg">
-          </div>
-  
-          <div class="video-info">
-            <p class="video-title">Try Not To Laugh Challenge #9</p>
-            <p class="channel-name">Markiplier</p>
-            <p class="video-state">19M views &#183; 4 years ago</p>
-          </div>
-        </div>
-  
-      </div>
-  
-      <div class="video-preview">
-        <div class="thumbnail-div">
-          <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
-        </div>
-  
-        <div class="video-info-div">
-          <div class="channel-pic">
-            <img class="channel-img" src="channel-picture/channel-2.jpeg">
-          </div>
-  
-          <div class="video-info">
-            <p class="video-title">Try Not To Laugh Challenge #9</p>
-            <p class="channel-name">Markiplier</p>
-            <p class="video-state">19M views &#183; 4 years ago</p>
-          </div>
-        </div>
-  
-      </div>
-  
-      <div class="video-preview">
-        <div class="thumbnail-div">
-          <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
-        </div>
-  
-        <div class="video-info-div">
-          <div class="channel-pic">
-            <img class="channel-img" src="channel-picture/channel-2.jpeg">
-          </div>
-  
-          <div class="video-info">
-            <p class="video-title">Try Not To Laugh Challenge #9</p>
-            <p class="channel-name">Markiplier</p>
-            <p class="video-state">19M views &#183; 4 years ago</p>
-          </div>
-        </div>
-  
-      </div>
-
-    </div>
+      </section>
+    </main>
+    
 
   </body>
 </html>

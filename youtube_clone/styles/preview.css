@@ -9,6 +9,18 @@
   row-gap: 50px;
 }
 
+@media (max-width:750px) {
+  .video-preview-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width:1000px) {
+  .video-preview-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
 .video-info-div {
   display: grid;
   grid-template-columns: 50px 1fr;

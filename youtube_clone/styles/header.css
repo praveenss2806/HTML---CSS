@@ -53,6 +53,34 @@
   width: 58px;
   border-color: rgb(204, 204, 204);
   background-color: rgb(247, 247, 247);
+  position: relative;
+}
+
+.upload-div, .apps-div, .notif-div {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-button .tooltip, .voice-button .tooltip, .upload-div .tooltip, .apps-div .tooltip, .notif-div .tooltip {
+  font-family: Roboto;
+  font-size: 12px;
+  position: absolute;
+  background-color: rgb(132, 132, 132);
+  color: white;
+  padding: 6px;
+  border-radius: 2px;
+  bottom: -38px;
+  opacity: 0;
+  transition: 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.search-button:hover .tooltip, .voice-button:hover .tooltip, .upload-div:hover .tooltip
+,.apps-div:hover .tooltip, .notif-div:hover .tooltip{
+  opacity: 1;
 }
 
 .voice-img {
@@ -60,10 +88,13 @@
 }
 
 .voice-button {
+  display: flex;
   height: 37.3px;
   border-radius: 18px;
-  padding-top: 5px;
   border: none;
+  position: relative;
+  justify-content: center;
+  align-items: center;
 }
 
 .search-bar {
@@ -72,7 +103,7 @@
   border-width: 1px;
   border-color: rgb(204, 204, 204);
   border-style: solid;
-  box-shadow: inset 1px 2px 5px rgba(0,0,0,0.10);
+  box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
 }
 
 .search-bar::placeholder {
@@ -97,10 +128,6 @@
   margin-right: 15px;
   height: 32px;
   border-radius: 16px;
-}
-
-.notif-div {
-  position: relative;
 }
 
 .notif-count {
